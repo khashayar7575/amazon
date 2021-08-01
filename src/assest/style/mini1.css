@@ -1,0 +1,77 @@
+.slider {
+  overflow: hidden;
+  position: relative;
+  height: auto;
+}
+
+.slider > .gal {
+  transition: 0.5s;
+  position: relative;
+  left: 0;
+
+  //border:1px solid red;
+  width: 500%;
+  height: 100%;
+}
+
+.slider:hover > .right {
+  right: 0px;
+}
+.slider > .right {
+  transition: 0.3s;
+  //border: 1px solid red;
+  width: 50px;
+  height: 70px;
+  background: url("../img/slider/slider1/minir.png") no-repeat 50%;
+  background-size: 70%;
+
+  position: absolute;
+  top: 80px;
+  right: -100px;
+}
+
+.slider:hover > .left {
+  left: 0px;
+}
+.slider > .left {
+  transition: 0.3s;
+  //border: 1px solid red;
+  width: 50px;
+  height: 70px;
+  background: url("../img/slider/slider1/minil.png") no-repeat 50%;
+  background-size: 70%;
+
+  position: absolute;
+  top: 80px;
+  left: -100px;
+}
+
+.slider > .gal > .items {
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+
+.slider > .gal > .items > img {
+  width: 100%;
+  height: auto;
+}
+
+.slider > .gal > .items:hover > p {
+  top: -45px;
+}
+
+.slider > .gal > .items > p {
+  transition: 0.5s;
+
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0;
+  padding: 10px;
+
+  text-align: center;
+  font-family: tahoma;
+  color: #fff;
+
+  position: relative;
+  top: 0px;
+}

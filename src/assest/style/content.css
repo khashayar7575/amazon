@@ -1,0 +1,430 @@
+#content {
+  // border: 1px solid #ccc;
+  height: auto;
+  width: 1200px;
+  margin: auto;
+  position: relative;
+}
+#content > .slider {
+  //border: 1px solid #ccc;
+  height: 190px;
+  width: 1198px;
+  margin: auto;
+}
+#content > .center > div {
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+#content > .center > .one {
+  height: 343px;
+  background-color: white;
+  //border: 1px solid red;
+}
+#content > .center > .one > div {
+  float: left;
+  margin: 27px;
+}
+#content > .center > .one > .grid-one {
+  //border: 1px solid red;
+  height: 300px;
+  width: 20%;
+  background: url(/img/grid-one.jpg) no-repeat;
+  background-size: 110%;
+  background-position: bottom;
+  //background-color: yellow;
+}
+#content > .center > .one > .grid-one > h2 {
+  font-size: 18px;
+  line-height: 10px;
+}
+
+#content > .center > .one > .grid-two {
+  //border: 1px solid red;
+  height: 300px;
+  width: 20%;
+  background: url(/img/grid-two.jpg) no-repeat;
+  background-size: 120%;
+  background-position: center;
+  // background-color: blue;
+}
+#content > .center > .one > .grid-two > h2 {
+  font-size: 17px;
+  line-height: 10px;
+}
+#content > .center > .one > .grid-three {
+  //border: 1px solid red;
+  height: 300px;
+  width: 20%;
+  background: url(/img/grid-three.jpg) no-repeat;
+  background-size: 115%;
+  background-position: center;
+  // background-color: red;
+}
+#content > .center > .one > .grid-three > h2 {
+  font-size: 20px;
+  line-height: 10px;
+}
+#content > .center > .one > .grid-four {
+  //border: 1px solid red;
+  height: 300px;
+  width: 20%;
+  // background-color: green;
+  position: relative;
+}
+#content > .center > .one > .grid-four > .grid-fourtop {
+  //border: 1px solid blue;
+  height: 100px;
+  width: 80%;
+  position: absolute;
+  top: 10px;
+  left: 23px;
+}
+#content > .center > .one > .grid-four > .grid-fourtop > h2 {
+  font-size: 13px;
+}
+#content > .center > .one > .grid-four > .grid-fourtop > .yellow-buttun {
+  border: 1px solid #fcd200;
+  height: 30px;
+  width: 180px;
+  position: absolute;
+  top: 40px;
+  left: 5px;
+  background-color: #ffd814;
+  border-radius: 7px;
+  font-size: 12px;
+  color: #0f1111;
+  text-align: center;
+  padding-top: 3px;
+  cursor: pointer;
+}
+#content > .center > .one > .grid-four > .grid-fourbot {
+  width: 200px;
+  height: 150px;
+  //border: 1px solid green;
+  position: absolute;
+  bottom: 4px;
+  left: 19px;
+  background: url(/img/bluebott.jpg);
+  background-size: 90%;
+  cursor: pointer;
+}
+#content > .center > .two {
+  height: 343px;
+  //border: 1px solid red;
+  background-color: white;
+}
+#content > .center > .two > div {
+  float: left;
+  margin: 28px;
+}
+#content > .center > .two > .grid-one {
+  //border: 1px solid red;
+  height: 300px;
+  width: 20%;
+  position: relative;
+}
+#content > .center > .two > .grid-one > .img-of-one {
+  position: absolute;
+  bottom: 17px;
+  height: 250px;
+  width: 100%;
+  background: url(/img/two-1.JPG) no-repeat;
+  cursor: pointer;
+}
+#content > .center > .two > .grid-two {
+  //border: 1px solid red;
+  height: 300px;
+  width: 20%;
+  position: relative;
+}
+#content > .center > .two > .grid-two > .img-of-two {
+  position: absolute;
+  bottom: 17px;
+  height: 250px;
+  width: 100%;
+  background: url(/img/two-2.JPG) no-repeat;
+  cursor: pointer;
+}
+#content > .center > .two > .grid-three {
+  //border: 1px solid red;
+  height: 300px;
+  width: 20%;
+  position: relative;
+}
+#content > .center > .two > .grid-three > .img-of-three {
+  position: absolute;
+  bottom: 17px;
+  height: 250px;
+  width: 100%;
+  background: url(/img/two-3.JPG) no-repeat;
+  cursor: pointer;
+}
+#content > .center > .two > .grid-four {
+  //border: 1px solid red;
+  height: 300px;
+  width: 20%;
+  position: relative;
+}
+#content > .center > .two > .grid-four > .img-of-four {
+  position: absolute;
+  bottom: 17px;
+  height: 250px;
+  width: 100%;
+  background: url(/img/two-4.JPG) no-repeat;
+  cursor: pointer;
+}
+#content > .center > .minione {
+  height: 220px;
+  background-color: white;
+}
+#content > .center > .minitwo {
+  height: 200px;
+  background-color: white;
+}
+#content > .center > .minithree {
+  height: 200px;
+  background-color: white;
+}
+#content > .center > .three {
+  height: 330px;
+  // border: 1px solid red;
+  padding-bottom: 10px;
+  background-color: white;
+}
+#content > .center > .three > div {
+  float: left;
+  margin: 28px;
+}
+#content > .center > .three > .grid-one {
+  position: relative;
+  //border: 1px solid;
+  height: 300px;
+  width: 20%;
+}
+#content > .center > .three > .grid-one > .Sweatshirts {
+  position: absolute;
+  width: 42%;
+  height: 100px;
+  //border: 1px solid red;
+  top: 25px;
+  background: url(/img/Sweatshirt.jpg) no-repeat;
+  background-size: 108%;
+  cursor: pointer;
+}
+#content > .center > .three > .grid-one > .under-sw {
+  position: absolute;
+  //border: 1px solid red;
+  width: 30%;
+  height: 30px;
+  top: 113px;
+  cursor: pointer;
+}
+#content > .center > .three > .grid-one > .under-sw > span {
+  font-size: 12px;
+}
+#content > .center > .three > .grid-one > .Joggers {
+  position: absolute;
+  width: 42%;
+  height: 87px;
+  //border: 1px solid red;
+  top: 25px;
+  right: 0;
+  background: url(/img/joggers.JPG);
+  cursor: pointer;
+}
+#content > .center > .three > .grid-one > .under-jo {
+  //border: 1px solid red;
+  width: 30%;
+  height: 25px;
+  position: absolute;
+  top: 113px;
+  right: 0;
+  cursor: pointer;
+}
+#content > .center > .three > .grid-one > .under-jo > span {
+  font-size: 12px;
+}
+#content > .center > .three > .grid-one > .Cardigans {
+  position: absolute;
+  width: 42%;
+  height: 87px;
+  //border: 1px solid red;
+  bottom: 60px;
+  background: url(/img/Cardigans.JPG) no-repeat;
+  background-size: 101%;
+  cursor: pointer;
+}
+#content > .center > .three > .grid-one > .under-ca {
+  //border: 1px solid red;
+  width: 30%;
+  height: 25px;
+  position: absolute;
+  bottom: 40px;
+  cursor: pointer;
+}
+#content > .center > .three > .grid-one > .under-ca > span {
+  font-size: 12px;
+}
+#content > .center > .three > .grid-one > .Easy-tees {
+  //border: 1px solid red;
+  position: absolute;
+  width: 42%;
+  height: 85px;
+  right: 0;
+  bottom: 60px;
+  background: url(/img/Easy\ tees.JPG);
+  cursor: pointer;
+}
+#content > .center > .three > .grid-one > .under-te {
+  //border: 1px solid red;
+  width: 30%;
+  height: 25px;
+  position: absolute;
+  right: 0;
+  bottom: 33px;
+  cursor: pointer;
+}
+#content > .center > .three > .grid-one > .under-te > span {
+  font-size: 12px;
+}
+#content > .center > .three > .grid-two {
+  position: relative;
+  //border: 1px solid red;
+  height: 300px;
+  width: 20%;
+}
+#content > .center > .three > .grid-two > .top-of-two {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 20px;
+  //border: 1px solid red;
+}
+#content > .center > .three > .grid-two > .img-of-two {
+  position: absolute;
+  bottom: 0;
+  //border: 1px solid green;
+  width: 100%;
+  height: 270px;
+  background: url(/img/Laptops\ &\ Tablets.JPG) no-repeat;
+  background-size: 110%;
+  cursor: pointer;
+}
+#content > .center > .three > .grid-two > .top-of-two > span {
+  font-size: 16px;
+}
+#content > .center > .three > .grid-three {
+  //border: 1px solid orange;
+  height: 300px;
+  width: 20%;
+  position: relative;
+}
+#content > .center > .three > .grid-three > .img-of-three {
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  bottom: 20px;
+  background: url(/img/three-grid3.JPG) no-repeat;
+  cursor: pointer;
+}
+#content > .center > .three > .grid-four {
+  //border: 1px solid green;
+  height: 300px;
+  width: 20%;
+  position: relative;
+}
+#content > .center > .three > .grid-four > .img-of-four {
+  position: absolute;
+  width: 100%;
+  height: 275px;
+  bottom: 0;
+  cursor: pointer;
+  background: url(/img/three-grid4.JPG) no-repeat;
+}
+#content > .center > .minifour {
+  height: 200px;
+  background-color: white;
+}
+#content > .center > .minifive {
+  height: 190px;
+}
+#content > .center > .minisix {
+  height: 200px;
+  background-color: white;
+}
+
+#content > .center > .five {
+  height: 300px;
+  background-color: white;
+  //border: 1px solid;
+}
+#content > .center > .five > div {
+  float: left;
+  margin: 28px;
+}
+#content > .center > .five > .grid-one {
+  //border: 1px solid red;
+  height: 100%;
+  width: 20%;
+  position: relative;
+}
+#content > .center > .five > .grid-one > .img-of-one {
+  position: absolute;
+  bottom: 17px;
+  height: 250px;
+  width: 100%;
+  background: url(/img/five-1.JPG) no-repeat;
+  cursor: pointer;
+}
+#content > .center > .five > .grid-two {
+  //border: 1px solid red;
+  height: 100%;
+  width: 20%;
+  position: relative;
+}
+#content > .center > .five > .grid-two > .img-of-two {
+  position: absolute;
+  bottom: 17px;
+  height: 250px;
+  width: 100%;
+  background: url(/img/five-2.JPG) no-repeat;
+  background-size: 90%;
+  cursor: pointer;
+}
+#content > .center > .five > .grid-three {
+  //border: 1px solid red;
+  height: 100%;
+  width: 20%;
+  position: relative;
+}
+#content > .center > .five > .grid-three > .img-of-three {
+  position: absolute;
+  bottom: 10px;
+  height: 250px;
+  width: 100%;
+  background: url(/img/five-3.JPG) no-repeat;
+  background-size: 90%;
+  cursor: pointer;
+}
+#content > .center > .five > .grid-four {
+  //border: 1px solid blue;
+  height: 100%;
+  width: 20%;
+  position: relative;
+}
+#content > .center > .five > .grid-four > .img-of-four {
+  position: absolute;
+  bottom: 17px;
+  height: 250px;
+  width: 100%;
+  background: url(/img/five-4.JPG) no-repeat;
+  background-size: 90%;
+  cursor: pointer;
+}
+
+#content > .center > .six {
+  height: 300px;
+}
+#content > .center > .seven {
+  height: 140px;
+}

@@ -1,0 +1,116 @@
+#footer {
+  border: 1px solid #ccc;
+  height: auto;
+}
+#footer > .first {
+  // border: 1px solid red;
+  height: 100px;
+  background-color: white;
+}
+
+#footer > .first > .below {
+  height: 100%;
+  position: relative;
+}
+#footer > .first > .below > .button-inner {
+  border: 1px solid #ffd814;
+  border-radius: 7px;
+  height: 29px;
+  width: 287px;
+  background-color: #ffd814;
+  position: absolute;
+  bottom: 37px;
+  left: 500px;
+}
+#footer > .first > .below > .button-inner > span {
+  font-size: 10px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 9px;
+  left: 125px;
+  cursor: pointer;
+}
+#footer > .second:hover {
+  background-color: #37475a;
+  cursor: pointer;
+}
+#footer > .second {
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  color: #fff;
+  padding-top: 15px;
+  background-color: #3a4553;
+  font-size: small;
+}
+#footer > .first-big {
+  height: 400px;
+  border-bottom: 1px solid #ccc;
+  background-color: #232f3e;
+}
+#footer > .first-big > .top {
+  border-bottom: 1px solid #3a4553;
+  height: 270px;
+  padding-bottom: 30px;
+}
+#footer > .first-big > .top > div {
+  border: 1px solid #ccc;
+  width: 200px;
+  height: 250px;
+  float: right;
+  margin: 10px 60px;
+}
+#footer > .first-big > .middle {
+  height: 70px;
+  /* padding-top: 30px; */
+  /* border:1px solid red; */
+  width: 50%;
+  margin: 2% auto;
+}
+.middle > .middle-icon {
+  text-align: center;
+  float: left;
+  width: 20%;
+  height: 100%;
+  background-color: #232f3e;
+  color: #fff;
+  font-weight: bolder;
+  font-size: x-large;
+
+  /* border:1px solid red; */
+}
+.middle > .middle-option {
+  float: right;
+  width: 70%;
+  height: 100%;
+  background-color: #232f3e;
+  color: #ccc;
+}
+.middle > .middle-option > div {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  float: left;
+  width: 30%;
+  height: 40px;
+  margin-right: 5px;
+}
+#footer > .second-big {
+  height: 470px;
+  background-color: #131a22;
+}
+#footer > .second-big > .top {
+  border: 1px solid #ccc;
+  height: 400px;
+  width: 80%;
+  margin: auto;
+}
+#footer > .second-big > .bottom {
+  border: 1px solid #ccc;
+  height: 67px;
+}
+#footer > .second-big > .bottom > .last {
+  border: 1px solid #ccc;
+  height: 53px;
+  width: 80%;
+  margin: auto;
+}

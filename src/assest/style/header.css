@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  background-color: #eaeded;
+}
+@font-face {
+  font-family: inherit;
+  src: url(/Inheritance\ Font\ Regular.ttf);
+}
+#header {
+  //border: 1px solid #ccc;
+  height: 77px;
+}
+#header > .top {
+  //border-bottom: 1px solid #ccc;
+  height: 60%;
+  background-color: #131921;
+  position: relative;
+}
+#header > .top > .left {
+  height: 40px;
+  width: 260px;
+}
+#header > .top > .left > .logo:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+#header > .top > .left > .logo {
+  margin-left: 10px;
+  float: left;
+}
+#header > .top > .left > .location:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+#header > .top > .left > .location {
+  width: 165px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 120px;
+  background: url(/img/location.JPG) no-repeat;
+}
+#header > .top > .fill {
+  //border: 1px solid #ccc;
+  height: 45px;
+  width: 730px;
+  position: absolute;
+  top: 0;
+  left: 300px;
+}
+#header > .top > .fill > .search > .left {
+  height: 40px;
+  width: 50px;
+  margin-top: 7px;
+}
+#header > .top > .fill > .search > .search-box > input {
+  width: 600px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 43.5px;
+  margin-top: 5px;
+}
+#header > .top > .fill > .search > .right:hover {
+  cursor: pointer;
+}
+#header > .top > .fill > .search > .right {
+  height: 40px;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  left: 652px;
+  margin-top: 6px;
+}
+#header > .top > .right {
+  //border: 1px solid #ccc;
+  width: 350px;
+  height: 45px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#header > .top > .right > .language:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+#header > .top > .right > .language {
+  height: 40px;
+  width: 50px;
+  margin-top: 5px;
+
+  // border: 1px solid red;
+  background: url(/img/lan.JPG);
+}
+#header > .top > .right > .accountlist:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+#header > .top > .right > .accountlist {
+  height: 40px;
+  width: 115px;
+  margin-top: 3px;
+  //border: 1px solid green;
+  position: absolute;
+  top: 0;
+  right: 170px;
+  background: url(/img/account.JPG) no-repeat;
+}
+#header > .top > .right > .orders:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+#header > .top > .right > .orders {
+  height: 40px;
+  width: 70px;
+  //border: 1px solid gold;
+  position: absolute;
+  top: 0;
+  right: 90px;
+  background: url(/img/order.JPG) no-repeat;
+  background-position: center;
+}
+#header > .top > .right > .carts:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+#header > .top > .right > .carts {
+  height: 40px;
+  width: 80px;
+  margin-right: 5px;
+  //border: 1px solid violet;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(/img/cart.JPG) no-repeat;
+  background-position: center;
+}
+#header > .bottom {
+  height: 40%;
+  background-color: #232f3e;
+  position: relative;
+}
+#header > .bottom > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#header > .bottom > ul > li {
+  display: inline;
+  color: white;
+  font-size: 11px;
+  font-family: inherit;
+  padding: 8px 10px;
+}
+#header > .bottom > ul > li:hover {
+  cursor: pointer;
+}
+#header > .bottom > .widgest:hover {
+  cursor: pointer;
+}
+#header > .bottom > .widgest {
+  font-family: inherit;
+  font-size: 12px;
+  color: white;
+  height: 30px;
+  width: 230px;
+
+  position: absolute;
+  top: 5px;
+  left: 1160px;
+}
